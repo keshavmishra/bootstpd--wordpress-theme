@@ -8,7 +8,7 @@ HTML + JS + PHP + CSS.
 still in beta version. Kind of mess ;)
 
 
-Sailent features:
+Sailent features:<br/>
 1) static home page
 2) three widget footer
 3) single sidebar
