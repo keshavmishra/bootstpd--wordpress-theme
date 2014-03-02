@@ -1,20 +1,19 @@
 
-<ul>
- <div class="footer-left">
+ <div class="span4">
 
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Widgets Left') ) : ?><?php endif; ?>
 
-</div>
-<div class="footer-center">
+ </div>
+<div class="span4">
 
    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Widgets Center') ) : ?><?php endif; ?>
 
 </div>
 
-<div class="footer-right">
+<div class="span4">
 
    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Widgets Right') ) : ?><?php endif; ?>
 
 </div>
   
-</ul>
+

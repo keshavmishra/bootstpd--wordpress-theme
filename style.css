@@ -25,6 +25,16 @@ body {
      padding-bottom: 40px; 
 }
 
+footer { 
+     padding-top: 20px; 
+     padding-bottom: 40px; 
+}
+
+
+sidebar-my { 
+     padding-top: 20px; 
+    
+}
 
 .span8{
     -moz-box-shadow: 0 0 2px black;
@@ -38,11 +48,6 @@ body {
     box-shadow: 0 0 2px black;
 }
 
-.span3{
-    -moz-box-shadow: 0 0 2px black;
-    -webkit-box-shadow: 0 0 2px black;
-    box-shadow: 0 0 2px black;
+.footer-widget{
+padding-down : 50px;
 }
-.footer-left {width:300px;float:left;} 
-.footer-center {width:300px;float:left;}
-.footer-right {width:300px;float:left;}

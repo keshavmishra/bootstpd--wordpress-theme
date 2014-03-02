@@ -13,8 +13,8 @@ add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
 if ( function_exists('register_sidebar') )
 	register_sidebar(array(
-		'before_widget' => '',
-		'after_widget' => '',
+		'before_widget' => '<div class="%2$s well sidebar-my">',
+		'after_widget' => '</div>',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
 	));
@@ -25,27 +25,28 @@ if ( function_exists('register_sidebar') )
 if ( function_exists('register_sidebar') )
     register_sidebar(array(
         'name' => 'Footer Widgets Left',
-        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s well">',
         'after_widget' => '</div>',
-        'before_title' => '<h2 class="widgettitle">',
-        'after_title' => '</h2>',
+        'before_title' => '<h6 class="widgettitle ">',
+        'after_title' => '</h6>',
     ));
 
 if ( function_exists('register_sidebar') )
         register_sidebar(array(
             'name' => 'Footer Widgets Center',
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'before_widget' => '<div id="%1$s" class="widget %2$s well">',
             'after_widget' => '</div>',
-            'before_title' => '<h2 class="widgettitle">',
-            'after_title' => '</h2>',
+            'before_title' => '<h6 class="widgettitle ">',
+            'after_title' => '</h6>',
         ));
 
 
 if ( function_exists('register_sidebar') )
         register_sidebar(array(
             'name' => 'Footer Widgets Right',
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'before_widget' => '<div id="%1$s" class="widget %2$s well">',
             'after_widget' => '</div>',
-            'before_title' => '<h2 class="widgettitle">',
-            'after_title' => '</h2>',
+            'before_title' => '<h6 class="widgettitle">',
+            'after_title' => '</h6>',
+            
         ));
