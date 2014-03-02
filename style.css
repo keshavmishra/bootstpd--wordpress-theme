@@ -1,0 +1,48 @@
+
+
+/*
+Theme Name:Bootstpd-wordpress-theme
+Theme URI: http://www.twitter.com/the_keshav
+Description: Just a small thee using bootstrap for learning and deploying
+Author: Keshav Mishra
+Author URI: http://www.twitter.com/the_keshav
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+
+
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
+
+
+.span8{
+    -moz-box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;
+}
+
+.span4{
+    -moz-box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;
+}
+
+.span3{
+    -moz-box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;
+}
+.footer-left {width:300px;float:left;} 
+.footer-center {width:300px;float:left;}
+.footer-right {width:300px;float:left;}
