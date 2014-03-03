@@ -12,6 +12,7 @@ Sailent features:<br/>
 1) static home page<br/>
 2) three widget footer<br/>
 3) single sidebar<br/>
-4)responsive
+4)responsive<br/>
+5)static navigation bar
 
 
