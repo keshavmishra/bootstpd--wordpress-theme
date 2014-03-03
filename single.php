@@ -4,14 +4,18 @@
   <div class="span8">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		<h1><?php the_title(); ?></h1>
-		<p><em><?php the_time('l, F jS, Y'); ?></em></p>
-
-	  	<?php the_content(); ?>
+		<h3><?php the_title(); ?></h3>
+		<p><em> written by <?php the_author(); ?> ,<?php the_time('l, F jS, Y'); ?> </em></p>
+ 
+	  <p>	<?php the_content(); ?></p>
+	  
+	  <p>	<?php the_author(); ?></p>
 
 	  	<hr>
+	  	
+	  	<div class="well">
 		<?php comments_template(); ?>
-
+</div>
 	<?php endwhile; else: ?>
 		<p><?php _e('Sorry, this page does not exist.'); ?></p>
 	<?php endif; ?>
